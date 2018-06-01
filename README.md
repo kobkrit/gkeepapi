@@ -24,7 +24,7 @@ This is alpha quality code! Don't use in production. The project is under active
 
 ## Installation
 
-`pip install gkeepapi`
+`pip install git+https://github.com/kobkrit/gkeepapi.git`
 
 ## Documentation
 
