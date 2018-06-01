@@ -1358,7 +1358,7 @@ class Label(Element, TimestampsMixin):
         ret['mainId'] = self.id
         ret['name'] = self._name
         ret['timestamps'] = self.timestamps.save()
-        ret['revision'] = self._revision
+        ret['revision'] = self._revision or 0
         ret['lastMerged'] = NodeTimestamps.dt_to_str(self._merged)
         return ret
 
